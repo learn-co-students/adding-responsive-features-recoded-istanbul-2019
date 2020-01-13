@@ -2,10 +2,10 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script);
 
 /*////////// GLOBAL //////////*/
-
+@media (max-width: 900px) {
 body {
   font-size: 100%;
-}
+}}
 
 h3 {
   margin: 0 0 10px;
@@ -23,10 +23,11 @@ p, address {
   font-size: 1em; /* 16px, ?pt, 100%, 1em */
   line-height: 1.5em;
 }
+@media (max-width: 900px) {
 
 figure {
   margin: 0 0 10px;
-}
+}}
 
 figcaption {
   font: normal 0.75em/1.5em 'Elsie Swash Caps', cursive;
