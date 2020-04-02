@@ -19,7 +19,7 @@ li {
   margin-left: 20px;
 }
 
-p, address { 
+p, address {
   font-size: 1em; /* 16px, ?pt, 100%, 1em */
   line-height: 1.5em;
 }
@@ -347,12 +347,97 @@ section {
 /*////////// FOOTER //////////*/
 
 footer {
-  text-align: center; 
+  text-align: center;
   font-size: 0.75em;
   padding: 10px;
   background: #eee;
-  border-top: 1px solid; 
+  border-top: 1px solid;
 }
 
+/* Media Queries */
 
+@media only screen and (max-width: 1114px){
+  #body #social {
+    position: absolute;
+    display: block;
+    width: auto;
+    top: 84px;
+    right: 4%;
+  }
+  #body #social a {
+    display: inline-block;
 
+  }
+}
+
+@media only screen and (max-width: 992px){
+  body {
+    font-size: 80%;
+  }
+  header {
+    width: 100% !important;
+  }
+  .wrapper {
+    width: 90% !important;
+  }
+  #featured-property p {
+   column-count: 2;
+  }
+  h2 {
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  body {
+    font-size: 60%;
+  }
+  #promotional, #news {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 555px) {
+  #navbar nav {
+    border: 0;
+  }
+  #navbar nav a {
+    display: none;
+  }
+  #navbar nav a.menu-icon {
+    display: block;
+    float: right;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+
+  }
+}
+@media only screen and (max-width: 496px) {
+  #featured-property p {
+    column-count: 1;
+   }
+   h2 {
+     font-size: 2em !important;
+   }
+   #details div {
+     height: 100% !important;
+     margin: auto;
+   }
+  #details .wrapper .col-1 {
+    position: relative;
+     float: none;
+     display: block;
+     width: 100%;
+     border: 0;
+   }
+   #details .wrapper .col-1 > * {
+    margin: 10px 20%;
+   }
+}
+@media only screen and (max-width: 392px) {
+  #logo h2{
+    display:none;
+  }
+}
