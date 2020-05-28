@@ -353,6 +353,19 @@ footer {
   background: #eee;
   border-top: 1px solid; 
 }
-
+@media only screen and (max-width: 1008px){
+  .wrapper{
+    width: 90%;
+  }
+  #social{
+    position: absolute;
+    top: 82px;
+    right: 4%;
+    width: auto;
+  }
+  #social a {
+    display: inline-block;
+  }
+}
 
 
